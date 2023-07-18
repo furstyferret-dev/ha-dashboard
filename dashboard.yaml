@@ -386,5 +386,5 @@ views:
               top: 55%
               left: 50%
               font-size: 14px
-        image: /local/inverter-light-1.png
-        dark_mode_image: /local/inverter-dark-theme.png
+        image: /local/inverter-light.png
+        dark_mode_image: /local/inverter-dark-1.png
