@@ -1,0 +1,153 @@
+views:
+  - title: INVERTER
+    panel: true
+    type: panel
+    badges: []
+    cards:
+      - type: picture-elements
+        panel: true
+        elements:
+          - type: state-label
+            entity: sensor.pv1_voltage
+            style:
+              top: 15%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv1_current
+            style:
+              top: 21%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv1_power
+            style:
+              top: 27%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv1_energy_total
+            style:
+              top: 33%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv2_voltage
+            style:
+              top: 57%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv2_current
+            style:
+              top: 63%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv2_power
+            style:
+              top: 69%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.pv2_energy_total
+            style:
+              top: 75%
+              left: 3%
+              max-width: 1px
+              font-size: 32px
+          - type: state-label
+            entity: sensor.eps_rvolt
+            style:
+              top: 22%
+              left: 78%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.eps_frequency
+            style:
+              top: 27%
+              left: 78%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.eps_rpower
+            style:
+              top: 32%
+              left: 78%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.rvolt
+            style:
+              top: 45%
+              left: 78%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.rfreq
+            style:
+              top: 50%
+              left: 78%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.batvolt
+            style:
+              top: 65%
+              left: 81%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.bat_current
+            style:
+              top: 70%
+              left: 81%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.bms_kwh_remaining
+            style:
+              top: 75%
+              left: 81%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.invbatpower
+            style:
+              top: 80%
+              left: 81%
+              max-width: 1px
+              font-size: 28px
+          - type: state-label
+            entity: sensor.inverter_state
+            style:
+              top: 30%
+              left: 50%
+              font-size: 50px
+              font-weight: bold
+          - type: state-label
+            entity: sensor.load_power
+            style:
+              color: black
+              top: 54%
+              left: 50%
+              font-size: 13px
+              font-weight: bold
+          - type: state-label
+            entity: sensor.battery_soc
+            style:
+              color: black
+              top: 56%
+              left: 50%
+              font-size: 12px
+              font-weight: bold
+        image: /local/inverter-light-5.png
+        dark_mode_image: /local/inverter-dark-5.png
