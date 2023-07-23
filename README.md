@@ -11,3 +11,12 @@ Required add-ons:
 3. mushroom cards (or delete buttons if not wanted)
 4. custom-bar-card
 5. power-flow-card-plus
+
+The battery percentage is adapted to reflect the true charge level (0 - 100%, instead of the Fox reported 10 - 100%). Add this code to your configuration.yaml to implement this on your own setup:
+
+'''battery_soc_corrected:
+           friendly_name: "Corrected State of Charge"
+           unit_of_measurement: '%'
+           device_class: battery
+           value_template: >
+               {{ ((states('sensor.battery_soc')|float - 10) | multiply(1.11)) | round(0) }}'''
