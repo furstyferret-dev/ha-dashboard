@@ -2,6 +2,10 @@
 
 This is designed to integrate Home Assistant and FoxESS hybrid inverters into one dashboard customised for a medium-sized tablet.
 
+![Screenshot](https://github.com/furstyferret-dev/ha-dashboard/blob/main/images/Screenshot_2023-07-18-15-45-13-547.jpeg "Dark theme")
+
+![Screenshot](https://github.com/furstyferret-dev/ha-dashboard/blob/main/images/Screenshot_2023-07-18-15-45-59-250.jpeg "Light theme")
+
 You may need to alter the names entities referenced as they're designed to work with Nathan's FoxESS-modbus integration.
 
 Required add-ons:
